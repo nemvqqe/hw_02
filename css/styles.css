@@ -1,0 +1,42 @@
+.hero .title {
+  color: #ffffff;
+}
+
+.section-title {
+  color: var(--title-text-color);
+}
+
+.benefits .title {
+  color: var(--title-text-color);
+}
+
+.benefits .text {
+  color: var(--primary-text-color);
+}
+
+.section-team .text {
+  color: var(--primary-text-color);
+}
+
+.section-team .name {
+  color: var(--title-text-color);
+}
+
+.hero-button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  border: 0;
+  border-radius: 4px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-right: 30px;
+  padding-left: 30px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+/* Main text color: #212121; */
+/* Second text color: #757575; */
+/* Accent: #2196F3 */
+/* Header/Footer color: #2F303A */
+/* White and Black #000000 #FFFFFF */
