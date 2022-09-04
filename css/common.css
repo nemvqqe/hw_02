@@ -21,6 +21,10 @@ a {
 
 .address .text {
   color: var(--primary-footer-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
 }
 
 .address .text:hover,
@@ -30,6 +34,10 @@ a {
 
 .logo {
   font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
 }
 
 .web {
@@ -50,8 +58,11 @@ a {
 }
 
 .site-nav .link {
-  color: #212121;
+  color: var(--title-text-color);
   font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -61,6 +72,10 @@ a {
 
 .con-nav .link {
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
 
 .con-nav .link:hover,
