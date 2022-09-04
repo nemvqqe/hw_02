@@ -25,13 +25,10 @@
 .hero-button {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
-  border: 0;
-  border-radius: 4px;
-  padding-top: 17px;
-  padding-bottom: 17px;
-  padding-right: 30px;
-  padding-left: 30px;
-  font-weight: bold;
+  border: transparent;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
   display: inline-block;
 }
 

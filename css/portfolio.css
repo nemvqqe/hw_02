@@ -1,0 +1,11 @@
+.filter-button {
+  color: var(--primary-black-color);
+  background-color: var(--primary-filter-bg-color);
+  font-weight: 500;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
