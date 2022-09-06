@@ -14,34 +14,15 @@ body {
   background-color: var(--primary-bg-color);
   font-family: "Roboto", sans-serif;
 }
-
-a {
-  text-decoration: none;
-}
-
-.address .text {
-  color: var(--primary-footer-text-color);
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-}
-
-.address .text:hover,
-.address .text:focus {
-  color: var(--primary-white-color);
-}
+/* Logo */
 
 .logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 0.03em;
-}
-
-.web {
   color: var(--accent-color);
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
 .logo .header-studio {
@@ -52,17 +33,22 @@ a {
   color: var(--primary-white-color);
 }
 
+/* List */
+
 .list {
   list-style: none;
   font-style: normal;
 }
 
+/* Site nav */
+
 .site-nav .link {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.1;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .site-nav .link:hover,
@@ -70,15 +56,33 @@ a {
   color: var(--accent-color);
 }
 
+/* Con nav */
+
 .con-nav .link {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.1;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .con-nav .link:hover,
 .con-nav .link:focus {
   color: var(--accent-color);
+}
+
+/* Address */
+
+.address .text {
+  color: var(--primary-footer-text-color);
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.address .text:hover,
+.address .text:focus {
+  color: var(--primary-white-color);
 }
