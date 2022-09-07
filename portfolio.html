@@ -16,23 +16,24 @@
   </head>
   <body>
     <header class="header">
-      <!-- Площадь для практики -->
-
-      <!-- Площадь для практики -->
-      <nav>
-        <a class="logo" href="./index.html">
-          <span class="web">Web</span><span class="header-studio">Studio</span>
-        </a>
-        <ul class="site-nav list">
-          <li><a class="link" href="./">Студія</a></li>
-          <li><a class="link" href="./portfolio.html">Портфоліо</a></li>
-          <li><a class="link" href="./">Контакти</a></li>
+      <nav class="nav">
+        <div class="logo">
+          <a class="logo__text" href="./index.html">
+            Web<span class="logo__header-studio">Studio</span>
+          </a>
+        </div>
+        <ul class="nav__list list">
+          <li><a class="nav__link" href="./">Студія</a></li>
+          <li><a class="nav__link" href="./portfolio.html">Портфоліо</a></li>
+          <li><a class="nav__link" href="./">Контакти</a></li>
         </ul>
       </nav>
-      <ul class="con-nav list">
-        <li><a class="link" href="./">info@devstudio.com</a></li>
-        <li><a class="link" href="./">+38 096 111 11 11</a></li>
-      </ul>
+      <div class="con">
+        <ul class="con__list list">
+          <li><a class="con__link" href="./">info@devstudio.com</a></li>
+          <li><a class="con__link" href="./">+38 096 111 11 11</a></li>
+        </ul>
+      </div>
     </header>
     <main>
       <section class="filter">
@@ -126,15 +127,21 @@
         </ul>
       </section>
     </main>
-    <footer>
-      <a class="logo" href="./index.html">
-        <span class="web">Web</span><span class="footer-studio">Studio</span>
-      </a>
+    <footer class="footer">
+      <div class="logo">
+        <a class="logo__text" href="./index.html">
+          Web<span class="logo__footer-studio">Studio</span>
+        </a>
+      </div>
       <address class="address">
-        <ul class="address-nav list">
-          <li><a class="text" href="./">м.Київ, пр-т Лесі Українки, 26</a></li>
-          <li><a class="text" href="./">info@devstudio.com</a></li>
-          <li><a class="text" href="./">+38 096 111 11 11</a></li>
+        <ul class="address__list list">
+          <li>
+            <a class="address__text" href="./"
+              >м.Київ, пр-т Лесі Українки, 26
+            </a>
+          </li>
+          <li><a class="address__text" href="./">info@devstudio.com</a></li>
+          <li><a class="address__text" href="./">+38 096 111 11 11</a></li>
         </ul>
       </address>
     </footer>
