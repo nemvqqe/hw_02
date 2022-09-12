@@ -1,5 +1,9 @@
 /* Hero */
 
+.hero {
+  background-color: var(--primary-footer-bg-color);
+}
+
 .hero__title {
   color: var(--primary-white-color);
   font-weight: 900;
@@ -49,8 +53,17 @@
   letter-spacing: 0.03em;
 }
 
+/* Do list */
+
+.section__body {
+  background-color: var(--primary-white-color);
+}
+
 /* Team */
 
+.section__card {
+  background-color: var(--primary-white-color);
+}
 .section__text {
   color: var(--primary-text-color);
   font-size: 16px;
